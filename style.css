@@ -8,5 +8,37 @@ h3:hover{
     width           :100px ;
 }
 input:focus{
-    color           :blue ;
+    color           :blue ; /*To make text color blue*/
+    padding-left    :5px; 
+    outline         :0px; 
+    border          :2px solid red;
+}
+a:visited{
+    color           :gray;
+}
+a:focus{
+        /*When Google or Madagascar is clicked, the text color will be deepskyblue*/
+    color           :deepskyblue;
+    border          :2px;
+}
+        /* To color EVEN numbered text */       
+li:nth-child(2n){
+    color           :purple;
+    background-color:red;
+    width           :60px;
+}
+        /* To color ODD numbered text */
+li:nth-child(2n+1){
+    color           :brown;
+    background-color:mediumseagreen;
+    width           :60px;
+}
+li:first-child{
+    color           : red;
+    background-color:orange;
+}
+
+li:last-child{
+    color           :blue;
+    background-color:red;
 }
