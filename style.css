@@ -1,0 +1,12 @@
+h3{
+    color           : red;
+}
+/* hover means mouse over */
+h3:hover{
+    color           : aqua;
+    background-color: black;
+    width           :100px ;
+}
+input:focus{
+    color           :blue ;
+}
